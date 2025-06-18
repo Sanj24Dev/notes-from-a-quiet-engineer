@@ -1,7 +1,7 @@
 const CONFIG = {
     // profile setting (required)
     profile: {
-        name: "Sanjana Ganesh Nayak",
+        name: "Sanjana Nayak",
         image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
         role: "firmware developer",
         bio: "I develop everything using C.",
@@ -22,7 +22,7 @@ const CONFIG = {
     },
 
     // CONFIG configration (required)
-    link: "https://morethan-log.vercel.app",
+    link: "https://notes-from-a-quiet-engineer-5i8f-2ebwfev86.vercel.app/",
     since: 2025, // If leave this empty, current year will be used.
     lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
     ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
