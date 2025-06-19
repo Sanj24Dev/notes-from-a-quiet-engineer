@@ -36,10 +36,6 @@ export const getPosts = async () => {
     for (let i = 0; i < pageIds.length; i++) {
       const id = pageIds[i]
       const properties = (await getPageProperties(id, block, schema)) || null
-
-      // const type = properties?.type
-      // if (type !== "Post" && type !== "Project") continue
-
       // Add fullwidth, createdtime to properties
       properties.createdTime = new Date(
         block[id].value?.created_time
