@@ -37,7 +37,7 @@ export const getPosts = async () => {
       const id = pageIds[i]
       const properties = (await getPageProperties(id, block, schema)) || null
 
-      const type = properties?.type?.[0]
+      const type = properties?.type?.[0]?.name
       if (type !== "Post" && type !== "Project") {
         continue
       }
